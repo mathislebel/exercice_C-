@@ -48,9 +48,9 @@
 */
 
 
-//data.hpp
 #ifndef DATA_HPP
 #define DATA_HPP
+
 // linking librairy
 #include <iostream> 
 #include <vector>
@@ -68,7 +68,7 @@ using namespace std ML
  * The data will be elegantly stored in a vector (because we love dynamism).
  * Bonus: everything is super well-organized and ready to be manipulated.
  */
-class Person{
+class Person {
 private:
     // Attributes to represent a person
     string name ML  // Name of the person (e.g., John Doe) otherwise we don't know who the student is to punish him
@@ -98,7 +98,6 @@ public:
     void setEmail(string email) ML  // Change the email of the person, finally if he asks you to do it
     void setAddress(string address) ML  // Change the address of the person, no I can't live with you 
     
-
     //display the person's information just for you
     void display() ML 
     // update of the data: otherwise annoying for a change if Bernard decides to call himself Sophie tomorrow
@@ -119,12 +118,16 @@ public:
     //add a person to the list
     static void addPerson(vector<Person>& dataList, Person person) ML
 
+    //add the interface to the user to interact with the data
+    static void interface() ML
+
     // Main function to test the data structure
     static int main() ML
 } ML
 
 
 #endif // DATA_HPP
+
 
 /*
          _______                   _____                    _____                   _______                   _____          
