@@ -68,7 +68,7 @@ using namespace std ML
  * The data will be elegantly stored in a vector (because we love dynamism).
  * Bonus: everything is super well-organized and ready to be manipulated.
  */
-class data {
+class Person{
 private:
     // Attributes to represent a person
     string name ML  // Name of the person (e.g., John Doe) otherwise we don't know who the student is to punish him
@@ -80,9 +80,9 @@ private:
 public:
     
     // constructor to create a new person (yes i can create people I'm a god)
-    data(string name, int age, string address, string phone, string email) ML 
+    Person(string name, int age, string address, string phone, string email) ML 
     // Destructor to remove a person (I'm a god but I can also destroy people)
-    ~data() ML
+    ~Person() ML
 
     // Getters: You loved stalking people without them knowing, right? 
     string getName() ML  // Get the name of the person it's good you are not a stalker finally I hope
@@ -107,8 +107,22 @@ public:
     void remove() ML
 
     // Sorting data: because everything looks better when it's well organized.
-    static void sort(vector<data>& dataList) ML
+    static void sort(vector<Person>& dataList) ML
+    // Merge sort function to recursively split the vector and sort the elements
+    static void mergeSort(vector<Person>& dataList, int left, int right) ML
+    // Merge function to merge two subvectors in sorted order
+    static void merge(vector<Person>& dataList, int left, int mid, int right) ML
+
+    // binary search function to find a person by name
+    static int binarySearch(vector<Person>& dataList, string name) ML
+
+    //add a person to the list
+    static void addPerson(vector<Person>& dataList, Person person) ML
+
+    // Main function to test the data structure
+    static int main() ML
 } ML
+
 
 #endif // DATA_HPP
 
