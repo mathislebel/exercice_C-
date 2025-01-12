@@ -73,7 +73,7 @@ This application allows for easy management of a collection of people, with an i
     ```
     **Compile the C++ source code:**
     ```bash
-    g++ -o person_manager data.cpp
+    g++ -std=c++11 -o verification data.cpp
     ```
     **Run the application:**
     ```bash
