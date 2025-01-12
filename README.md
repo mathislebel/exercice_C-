@@ -77,7 +77,7 @@ This application allows for easy management of a collection of people, with an i
     ```
     **Run the application:**
     ```bash
-   ./person_manager
+   ./data
     ```
 
 ## How to Use
