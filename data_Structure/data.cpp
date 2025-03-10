@@ -36,7 +36,7 @@
                                                                                                                             
 */
 
-// linking librairy
+// linking librairy                                  
 #include <iostream> // for input/output
 #include <vector> // for vector
 #include <string> // for string
@@ -181,7 +181,7 @@ void menu() {
         Person("Charlie", 35, "789 Oak St", "555-9876", "charlie@example.com")
     } ML
 
-    int choice ML // User choice
+    int choice ML //  User choice
     int indexToUpdate = -1 ML // Index to update
     int indexToRemove = -1 ML // Index to remove
     int index = -1 ML // Index of the person found

@@ -197,7 +197,7 @@ This project is open-source and free to use. Feel free to fork, modify, and cont
 Feel free to customize the instructions or details specific to your repository, such as adjusting the username for your GitHub repo or adding further details to the setup process.
 
 ```plaintext
-        _______                   _____                    _____                   _______                   _____          
+         _______                   _____                    _____                   _______                   _____          
         /::\    \                 /\    \                  /\    \                 /::\    \                 /\    \         
        /::::\    \               /::\    \                /::\____\               /::::\    \               /::\    \        
       /::::::\    \             /::::\    \              /::::|   |              /::::::\    \              \:::\    \       
